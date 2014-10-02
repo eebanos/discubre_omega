@@ -16,10 +16,6 @@
     background: rgb(245, 121, 0); /* Firefox */
 }
 
-li, li.active{
-    color: #FFF;
-}
-
 #region-menu ul li a{
     display: block;
     letter-spacing: -0.06em;
