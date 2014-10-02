@@ -1,0 +1,112 @@
+/* This file will hold styles for all layouts using the alpha grid (i.e. not the mobile layout). */
+
+body{
+    font: 16px/1.42857 'Open Sans',"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#zone-branding-wrapper{
+    background: none repeat scroll 0 0 #FFF;
+    border-bottom: 2px solid #204A87;
+}
+
+#region-branding, #region-menu{
+    padding-top: 0.3125em;
+    padding-bottom: 0.3125em;
+}
+
+#main-menu{
+    margin-bottom: 0;
+}
+
+ul#main-menu li, ul.menu li{
+    padding:0;
+}
+
+#region-menu ul li a {
+    color: rgb(0, 107, 129);
+    font: 300 1.42148em 'Open Sans',"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+#region-menu ul li.menu-19344 a {
+    color: rgb(204, 0, 0);
+}
+
+ul.menu li:nth-child(n+1), #region-menu ul li:nth-child(n+1) {
+    float: left;
+    width: 20%;
+}
+
+#region-menu ul li.active a{
+    color:#729fcf;
+}
+
+#region-menu ul li a:hover{
+    background: none repeat scroll 0 0 rgba(32, 74, 135, 0.7);
+    box-shadow: 0 8px 0 -6px rgba(0, 0, 0, 0.15);
+    color: #fff;
+    transition: all 0.25s ease 0s;
+}
+
+#block-discubre-adv-discubre-adv{
+    display: inherit;
+}
+
+.cuadroMensaje-pro, .cuadroMensaje-fab{
+    margin-top: 185px;
+    background: none repeat scroll 0 0 rgba(0, 118, 153, 0.9);
+    padding: 50px;
+    color: rgba(255,255,255,1);
+    position: relative;
+}
+
+.cuadroMensaje-fab:after{
+    z-index: -1;
+    position: absolute;
+    content: "";
+    bottom: 15px;
+    right: 10px;
+    left: auto;
+    width: 50%;
+    top: 80%;
+    max-width:300px;
+    background: #777;
+    -webkit-box-shadow: 0 15px 10px #777;
+    -moz-box-shadow: 0 15px 10px #777;
+    box-shadow: 0 15px 10px #777;
+    -webkit-transform: rotate(3deg);
+    -moz-transform: rotate(3deg);
+    -o-transform: rotate(3deg);
+    -ms-transform: rotate(3deg);
+    transform: rotate(3deg);
+}
+
+h1.slogan{
+    font:300 2em/1em 'Open Sans',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    letter-spacing: -0.06em;
+}
+.venta{
+    font:300 0.95em/28px 'Open Sans',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    border-top: 1px solid rgba(255, 255, 255, 0.5);
+    margin-top: 30px;
+}
+
+#prod-full img, .prod-full img, .field-foto img{
+    width: 100%;
+    height: auto;
+    border: 1px solid rgba(0,0,0,0);
+    -webkit-transition: all 0.4s ease-in-out 0s;-moz-transition: all 0.4s ease-in-out 0s;-ms-transition: all 0.4s ease-in-out 0s;-o-transition: all 0.4s ease-in-out 0s;transition: all 0.4s ease-in-out 0s;
+}
+
+#prod-full img:hover, .prod-full img:hover, .field-foto img:hover{
+    border: 1px solid rgba(245, 121, 0,.9);
+    border-left-color: transparent;
+    -webkit-transition: all 0.4s ease-in-out 0s;-moz-transition: all 0.4s ease-in-out 0s;-ms-transition: all 0.4s ease-in-out 0s;-o-transition: all 0.4s ease-in-out 0s;transition: all 0.4s ease-in-out 0s;
+}
+
+.field-foto img{
+    height: 100px;
+}
+
+.logo-footer{
+    width:100%;
+}

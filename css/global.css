@@ -1,0 +1,158 @@
+/* This file will hold styles for the mobile version of your website (mobile first). */
+/* This also can include ANY global CSS that applies site-wide. Unless overwritten by a more specific style rule, CSS declarations in global.css will apply site-wide. */
+
+#logo{
+    width:100%;
+}
+
+.logo-img{
+   margin: 0 auto;
+}
+
+::selection {
+    background: rgb(245, 121, 0); /* Safari */
+}
+::-moz-selection {
+    background: rgb(245, 121, 0); /* Firefox */
+}
+
+li, li.active{
+    color: #FFF;
+}
+
+#region-menu ul li a{
+    display: block;
+    letter-spacing: -0.06em;
+    padding: 10px 0;
+    text-align: center;
+}
+
+#region-menu a:link, #region-menu a:visited{
+    color: #2e3436;
+    text-decoration: none;
+}
+
+#block-discubre-adv-discubre-adv{
+    display: none;
+}
+
+#discubre-contact-form{
+    padding-top: 2em;
+}
+
+#edit-mailchimp-form, #discubre-contact-form input, #edit-busqueda{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 0;
+    box-shadow: none;
+    color: #2e3436;
+    font: 600 0.875em 'Open Sans',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0;
+    padding: 12px 0 12px 10px;
+    -webkit-transition: all 0.4s ease-out 0s;-moz-transition: all 0.4s ease-out 0s;-ms-transition: all 0.4s ease-out 0s;-o-transition: all 0.4s ease-out 0s;transition: all 0.4s ease-out 0s;
+}
+
+#discubre-contact-form input, #edit-busqueda{
+    width: 98.10344827586207%;
+}
+
+#edit-name-field, #edit-email-field, #edit-phone-field{
+    width: 97.10526315789474% !important;
+}
+
+textarea#contacto-text{
+    font: 600 0.875em 'Open Sans',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin-bottom: 2em !important;
+    padding: 12px 0 0 10px;
+    transition: all 0.4s ease-out 0s;
+}
+
+#contact-submit{
+    width: 100% !important;
+}
+
+#edit-mailchimp-form{
+    width: 97.10526315789474%;
+}
+
+#edit-submit-busqueda-one, .mail-btn, #contact-submit{
+    background: none repeat scroll 0 0 rgba(245, 121, 0, 1) !important;
+    border: 1px solid #204A87 !important;
+    box-shadow: none;
+    color: #FFFFFF !important;
+    display: inline-block;
+    font: 600 0.875em 'Open Sans',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    margin: 0;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    position: relative;
+    text-align: center;
+    text-decoration: none !important;
+    text-shadow: none;
+    -webkit-transition: all 0.6s ease 0s;-moz-transition: all 0.6s ease 0s;-ms-transition: all 0.6s ease 0s;-o-transition: all 0.6s ease 0s;transition: all 0.6s ease 0s;
+    width: 100%;
+    margin-top: 1.08em;
+    margin-bottom: 1em;
+    height:46px;
+    border-radius:0;
+}
+
+#edit-submit-busqueda-one:hover, #contact-submit:hover, .mail-btn:hover{
+    background: none repeat scroll 0 0 rgba(204, 0, 0,1) !important;
+    border-color: rgba(0,118,153,.9) !important;
+    cursor: pointer;
+    text-decoration: none !important;
+    -webkit-transition: all 0.6s ease 0s;-moz-transition: all 0.6s ease 0s;-ms-transition: all 0.6s ease 0s;-o-transition: all 0.6s ease 0s;transition: all 0.6s ease 0s;
+}
+
+.fabricantes-promo-class{
+    width: 100%;
+}
+
+.logo-footer{
+    display: none;
+    padding-top: 1em;
+}
+
+.menu-social{
+    display: inline-block;
+    margin:0 auto;
+}
+
+.menu-social a:nth-child(n+1){
+    float: left;
+}
+
+.menu-social i{
+    font-size: 3em;
+    color: #729fcf;
+    -webkit-transition: all 0.25s ease 0s;-moz-transition: all 0.25s ease 0s;-ms-transition: all 0.25s ease 0s;-o-transition: all 0.25s ease 0s;transition: all 0.25s ease 0s;
+}
+
+
+.menu-social i:hover{
+    color: rgba(0,107,129,1.5);
+    -webkit-transition: all 0.25s ease 0s;-moz-transition: all 0.25s ease 0s;-ms-transition: all 0.25s ease 0s;-o-transition: all 0.25s ease 0s;transition: all 0.25s ease 0s;
+}
+
+.ajax-progress div.throbber {
+    line-height: 12px;
+    word-spacing: 30px;
+    letter-spacing: 50px;
+    font-weight: 900;
+    font-family: twister !important;
+    color: #cc0000;
+    background-color: #eeeeec;
+}
+
+.socios{
+    display:none;
+}
+
+.copyright{
+    font: 300 1.42148em 'Open Sans',"Helvetica Neue",Helvetica,Arial,sans-serif;
+    letter-spacing: -0.06em;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
