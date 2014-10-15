@@ -128,14 +128,18 @@ h2.block-title{
     height: 200px;
 }
 
-#discubre-mailchimp-register-form h2.we-send, .msg, #page-title{
+#discubre-mailchimp-register-form h2.we-send, .msg, #page-title, .salesMsg{
     font: 300 48px 'Open Sans',"Helvetica Neue",Helvetica,Arial,sans-serif;
     text-align: center;
     margin-bottom: 0;
     margin-top:0;
 }
 
-h2.we-send{
+.salesMsg{
+    font: 300 1.42148em 'Open Sans',"Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+h2.we-send, .salesMsg{
     letter-spacing: -0.06em;
 }
 

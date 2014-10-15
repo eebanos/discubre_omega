@@ -18,4 +18,17 @@ function discubre_omega_alpha_preprocess_page(&$vars) {
         unset($vars['page']['content']['content']['content']['system_main']['default_message']);
         drupal_set_title(t(''));
     }
+
+    switch(current_path()){
+        case 'user/login':
+            $vars['title'] = t('Acceso clientes');
+            unset($vars[tabs]);
+            break;
+        case 'user':
+            $vars['title'] = t('Acceso clientes');
+            unset($vars[tabs]);
+            break;
+        default:
+            break;
+    }
 }

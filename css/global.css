@@ -36,7 +36,7 @@
     padding-top: 2em;
 }
 
-#edit-mailchimp-form, #discubre-contact-form input, #edit-busqueda{
+#edit-mailchimp-form, #discubre-contact-form input, #edit-busqueda, #discubre-user input, #discubre-pass input{
     background: none repeat scroll 0 0 #FFFFFF;
     border: 1px solid #CCCCCC;
     border-radius: 0;
@@ -52,7 +52,7 @@
     width: 98.10344827586207%;
 }
 
-#edit-name-field, #edit-email-field, #edit-phone-field{
+#edit-name-field, #edit-email-field, #edit-phone-field, #edit-name, #edit-pass{
     width: 97.10526315789474% !important;
 }
 
@@ -71,7 +71,7 @@ textarea#contacto-text{
     width: 97.10526315789474%;
 }
 
-#edit-submit-busqueda-one, .mail-btn, #contact-submit{
+#edit-submit-busqueda-one, .mail-btn, #contact-submit, #login-submit{
     background: none repeat scroll 0 0 rgba(245, 121, 0, 1) !important;
     border: 1px solid #204A87 !important;
     box-shadow: none;
@@ -93,7 +93,7 @@ textarea#contacto-text{
     border-radius:0;
 }
 
-#edit-submit-busqueda-one:hover, #contact-submit:hover, .mail-btn:hover{
+#edit-submit-busqueda-one:hover, #contact-submit:hover, .mail-btn:hover, #login-submit:hover{
     background: none repeat scroll 0 0 rgba(204, 0, 0,1) !important;
     border-color: rgba(0,118,153,.9) !important;
     cursor: pointer;
