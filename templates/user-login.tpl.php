@@ -1,3 +1,4 @@
+<?php dpm($form);?>
 <div class="grid-6 alpha ">
 <?php print drupal_render_children($form);?>
 </div>
