@@ -55,13 +55,11 @@ header h2{
 header h2 a{
     text-decoration: none !important;
     color: rgb(0, 118, 153) !important;
-    -webkit-transition: all 0.4s ease-in-out 0s;-moz-transition: all 0.4s ease-in-out 0s;-ms-transition: all 0.4s ease-in-out 0s;-o-transition: all 0.4s ease-in-out 0s;transition: all 0.4s ease-in-out 0s;
 }
 
 header h2 a:hover{
     text-decoration: none !important;
     color:rgb(245, 121, 0) !important;
-    -webkit-transition: all 0.4s ease-in-out 0s;-moz-transition: all 0.4s ease-in-out 0s;-ms-transition: all 0.4s ease-in-out 0s;-o-transition: all 0.4s ease-in-out 0s;transition: all 0.4s ease-in-out 0s;
 }
 
 #block-views-fotos-complementarias-block-1{
@@ -88,6 +86,9 @@ header h2 a:hover{
 
 .pager li:hover{
     background-color: rgb(245, 121, 0);
+}
+
+header h2 a, header h2 a:hover, .pager li:hover, .pager li:hover > a, .ch-item, .ch-item-contact, .ch-item:hover, .ch-item-contact:hover , .ch-info, .ch-info-contact{
     -webkit-transition: all 0.4s ease-in-out 0s;-moz-transition: all 0.4s ease-in-out 0s;-ms-transition: all 0.4s ease-in-out 0s;-o-transition: all 0.4s ease-in-out 0s;transition: all 0.4s ease-in-out 0s;
 }
 
@@ -98,7 +99,6 @@ header h2 a:hover{
 .pager li:hover > a{
     font-weight: bold;
     color: #FFF;
-    -webkit-transition: all 0.4s ease-in-out 0s;-moz-transition: all 0.4s ease-in-out 0s;-ms-transition: all 0.4s ease-in-out 0s;-o-transition: all 0.4s ease-in-out 0s;transition: all 0.4s ease-in-out 0s;
 }
 
 .pager-current{
@@ -179,19 +179,20 @@ h2.we-send, .salesMsg{
     width: 220px;
 }
 
+.ch-img-1, .ch-img-2, .ch-img-3{
+    background-size: 100%;
+}
+
 .ch-img-1{
     background-image: url("/../sites/all/themes/discubre_omega/img/compara.png");
-    background-size: 100%;
 }
 
 .ch-img-2{
     background-image: url("/../sites/all/themes/discubre_omega/img/pin.png");
-    background-size: 100%;
 }
 
 .ch-img-3{
     background-image: url("/../sites/all/themes/discubre_omega/img/opina.png");
-    background-size: 100%;
 }
 
 .ch-item, .ch-item-contact{
@@ -201,7 +202,6 @@ h2.we-send, .salesMsg{
     cursor: default;
     height: 100%;
     position: relative;
-    -webkit-transition: all 0.4s ease-in-out 0s;-moz-transition: all 0.4s ease-in-out 0s;-ms-transition: all 0.4s ease-in-out 0s;-o-transition: all 0.4s ease-in-out 0s;transition: all 0.4s ease-in-out 0s;
 }
 
 .ch-item-contact{
@@ -237,7 +237,6 @@ h2.we-send, .salesMsg{
     opacity: 0;
     position: absolute;
     -webkit-transform: scale(0);-moz-transform: scale(0);-ms-transform: scale(0);-o-transform: scale(0);transform: scale(0);
-    -webkit-transition: all 0.4s ease-in-out 0s;-moz-transition: all 0.4s ease-in-out 0s ;-ms-transition: all 0.4s ease-in-out 0s;-o-transition: all 0.4s ease-in-out 0s;transition: all 0.4s ease-in-out 0s;
     width: 100%;
 }
 
