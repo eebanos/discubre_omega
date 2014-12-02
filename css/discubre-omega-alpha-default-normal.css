@@ -8,7 +8,7 @@
 }
 
 #zone-header-wrapper{
-    background: url("/../sites/all/themes/discubre_omega/img/src_bg.jpg") no-repeat center center / cover  rgba(0, 0, 0, 0);
+    background: url("/../sites/all/themes/discubre_omega/img/search_bg.jpg") no-repeat center center / cover  rgba(0, 0, 0, 0);
     background-attachment: fixed;
     height: 500px;
 }
@@ -107,7 +107,7 @@ header h2 a, header h2 a:hover, .pager li:hover, .pager li:hover > a, .ch-item, 
 }
 
 #zone-postscript-wrapper{
-    background: url("/../sites/all/themes/discubre_omega/img/src_bg_1.jpg") no-repeat center center / cover  rgba(0, 0, 0, 0);
+    background: url("/../sites/all/themes/discubre_omega/img/search_bg_one.jpg") no-repeat center center / cover  rgba(0, 0, 0, 0);
     background-attachment: fixed;
 }
 
