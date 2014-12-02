@@ -8,7 +8,7 @@
             $('#zone-content').css('display', "none");
         } else {
             $('#zone-header-wrapper').css('height', winH - 59);
-            $('#region-header-first').css('top', winH / 2 - $('#region-header-first').height() / 2 - 95.5 + 59);
+            $('#region-header-first').css('top', winH / 2 - $('#region-header-first').height() / 2 - 200);
         }
     });
     $(window).load(function () {
