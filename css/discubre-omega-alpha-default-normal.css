@@ -36,7 +36,7 @@
     -webkit-transition: all 0.2s ease-in-out 0s;-moz-transition: all 0.2s ease-in-out 0s;-ms-transition: all 0.2s ease-in-out 0s;-o-transition: all 0.2s ease-in-out 0s;transition: all 0.2s ease-in-out 0s;
 }
 .pr-ent-res:hover{
-    border: 1px solid rgba(245, 121, 0,.8);
+    /*border: 1px solid rgba(245, 121, 0,.8);*/
     -webkit-transform: scale(1);-moz-transform: scale(1);-ms-transform: scale(1);-o-transform: scale(1);transform: scale(1);
     -webkit-transition: all 0.2s ease-in-out 0s;-moz-transition: all 0.2s ease-in-out 0s;-ms-transition: all 0.2s ease-in-out 0s;-o-transition: all 0.2s ease-in-out 0s;transition: all 0.2s ease-in-out 0s;
     box-shadow: 8px 0 -6px rgba(232, 232, 100, 0.15);
